@@ -1,5 +1,144 @@
+/* Universal Style */
+
 html {
     font-size: 16px;
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.07em;
+}
+
+body {
+    padding-left: 16rem;
+    padding-right: 16rem;
+    background-color: hsl(180, 100%, 95%);
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+section {
+    margin-top: 5rem;
+}
+
+
+
+/* Header */
+
+header {
+    padding-top: 1rem;
+    width: 100%;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 2.5rem;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+    border-right: 1px solid #bbbbbb
+}
+
+nav ul li:last-child {
+    border-right: none;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0.5rem;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+nav ul li a:active {
+    background-color: hsl(180, 100%, 97%);;
+  }
+
+
+
+/* Section Me */
+
+section.me p {
+    width: 50%;
+}
+
+section.me span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section.me figure {
+    width: 20%;
+    margin: 0;
+    padding-right: 12rem;
+}
+
+section.me img {
+    border-radius: 2rem;
+    border: yellow solid 0.2rem;
+}
+
+
+
+/* Section Projects */
+
+.javascript_syntax_figure {
+    width: 80%;
+    display: none;
+}
+
+.projects ul {
+    list-style-type: square;
+}
+
+.projects li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+/* Section Skills */
+
+.skills img {
+    width: 3rem;
+    height: 3rem;
+    margin-right: 1rem;
+    margin-left: 0;
+    margin-top: 1rem;
+}
+
+
+
+/* Section Contact */
+
+.contact {
+    margin-bottom: 8rem;
+}
+
+.contact img {
+    height: 3rem;
+    width: 3rem;
+    margin-right: 1rem;
+    margin-left: 0;
+    margin-top: 1rem;
 }
