@@ -106,8 +106,17 @@ section.me img {
     display: none;
 }
 
+.reddit_app_figure {
+    width: 80%;
+    display: none;
+}
+
 .projects ul {
     list-style-type: square;
+}
+
+.projects li {
+    margin-bottom: 1rem;
 }
 
 .projects li:hover {
